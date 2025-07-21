@@ -124,7 +124,7 @@ a {
     background-size: 30px 30px;
 }
 .dots {
-    background-image: url('/images/dots.png');
+    background-image: url('../images/dots.png');
     height: 186px;
     width: 204px;
     background-repeat: no-repeat;
@@ -366,15 +366,11 @@ a {
        font-size: 18px;
     }
 }
-.landing .container .image {
-    
-}
 @media (max-width: 991px) {
     .landing .container .image {
         display: none;
     }
 }
-
 .landing .container .image img{
     position: relative;
     width: 600px;
@@ -397,8 +393,6 @@ a {
 } 
 
 /* End Landing */
-
-
 
 /* Start articles */
 .articles {
@@ -674,17 +668,14 @@ a {
     color: #777;
     margin-bottom: 10px;
 }
-
 .testimonials .box .rate .filled{
     color: #ffc107;
-    
 }
 .testimonials .box p{
     color: #777;
     line-height: 1.5;
     margin-top: 10px;
     margin-bottom: 0;
-    
 }
 /* End Testimonials */
 
@@ -790,7 +781,6 @@ a {
     margin-top: 10px;
     margin-bottom: 25px;
 }
-
 /* End team */
 
 /* Start Services */
@@ -832,7 +822,6 @@ a {
 .services .box:hover {
     transform: translateY(-15px);
 }
-
 .services .box i {
     color: #d6d6d6;
     display: block;
@@ -1149,7 +1138,6 @@ a {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px; 
 }
-
 .pricing .prices-container .plan {
     position: relative;
     background-color: white;
@@ -1215,7 +1203,6 @@ a {
     align-items: center;
     padding-inline-start: 10px;
 }
-
 .pricing .prices-container .plan .price img{
     max-width: 100%;
     width: 80px;
@@ -1339,14 +1326,13 @@ a {
         width: 100%;
     }
 }
-
 /* end Top Videos */
 
 /* Start Stats */
 .stats {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/images/stats.jpg);
+    background-image: url(../images/stats.jpg);
     background-size: cover;
     min-height: 300px;
     position: relative;
@@ -1433,7 +1419,7 @@ a {
 }
 
 .discount .image {
-    background-image: url(/images/discount-background1.jpg);
+    background-image: url(../images/discount-background1.jpg);
     background-size: cover;
     color: white;
     display: flex;
@@ -1541,7 +1527,6 @@ a {
    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
    gap: 40px;
 }
-
 .footer .info h3{
     color: white;
     font-size: 50px;
@@ -1724,10 +1709,10 @@ a {
 
 @keyframes change-bg  {
     0%, 100% {
-        background-image: url(/images/discount-background1.jpg);
+        background-image: url(../images/discount-background1.jpg);
     }
      50% {
-        background-image: url(/images/discount-background2.jpg);
+        background-image: url(../images/discount-background2.jpg);
     }
 }
 /* End animation */
